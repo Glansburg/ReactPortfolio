@@ -7,9 +7,11 @@ import Contact from "./components/Contact"
 import About from "./components/About"
 
 
+
 function App() {
-  const [count, setCount] = useState(0)
+ //const [count, setCount] = useState(0)
 const [page, setPage] = useState("About")
+
   return (
     <>
    <header className="flex-header">

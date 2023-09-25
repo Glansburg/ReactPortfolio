@@ -12,3 +12,4 @@ function Nav({setPage}) {
 }
 
 export default Nav
+
