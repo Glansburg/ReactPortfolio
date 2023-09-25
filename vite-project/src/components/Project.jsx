@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 function Project() {
     return (
-        <div>Project Page</div>
+        <div>Projects Page</div>
     )
 }
 

@@ -4,6 +4,26 @@
 
 }
 
+header {
+  background-color:  rgb(4, 121, 238);
+}
+
+body {
+  background-color:  rgb(157, 209, 254);
+}
+
+.nav-link {
+  background-color: initial;
+  transition: background-color 0.3s; 
+
+}
+
+.nav-link:active {
+  background-color: black;
+
+}
+
+
 .flex-header {
   display: flex;
   flex-flow: row nowrap;
@@ -18,6 +38,7 @@
   justify-content: space-around;
   align-items: center;
   width: 800px;
+  
 }
 
 .name-div {
