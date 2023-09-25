@@ -11,11 +11,11 @@ import About from "./components/About"
 function App() {
  //const [count, setCount] = useState(0)
 const [page, setPage] = useState("About")
-
+//<img src="https://www.place-hold.it/250x100"></img>
   return (
     <>
    <header className="flex-header">
-    <img src="https://www.place-hold.it/250x100"></img>
+  <div className="name-div"> Joel Getzke</div>
     <Nav setPage={setPage}>
     </Nav>
    </header>

@@ -1,3 +1,9 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+
+}
+
 .flex-header {
   display: flex;
   flex-flow: row nowrap;
@@ -13,6 +19,35 @@
   align-items: center;
   width: 800px;
 }
+
+.name-div {
+  font-family:cursive, Courier, Monospace;
+  font-size: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+}
+.porfolio-div {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.about-me {
+  font-size: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  text-decoration: underline;
+  background-color: rgb(188, 188, 224);
+  width:150px;
+}
+.about-me-description {
+  margin-top: 20px;
+  line-height: 1.7em;
+}
+
 
 #root {
   display: flex;
