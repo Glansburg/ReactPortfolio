@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio"
 import Resume from "./components/Resume"
 import Contact from "./components/Contact"
 import About from "./components/About"
+import Footer from './components/Footer'
 
 
 
@@ -27,6 +28,8 @@ const [page, setPage] = useState("About")
         page==="Resume"?<Resume></Resume>:""
       }
      </main>
+     <footer>{Footer}</footer>
+   
     </>
   )
 }
