@@ -19,40 +19,40 @@ function Portfolio() {
             title:"Project2",
             description:"description of project2",
             img: Ship2,
-            deployedLink: "https://text-editorjg-76d429acee63.herokuapp.com/",
-            repoLink: "https://github.com/Glansburg/TextEditor" 
+            deployedLink: "https://joelgetzke.github.io/WorkScheduler/",
+            repoLink: "https://github.com/JoelGetzke/WorkScheduler" 
 
         },
         {
             title:"Project3",
             description:"description of project3",
             img: Ship3,
-            deployedLink: "https://text-editorjg-76d429acee63.herokuapp.com/",
-            repoLink: "https://github.com/Glansburg/TextEditor" 
+            deployedLink: "https://herokunotetaker2023-5b0d4d397a0a.herokuapp.com/notes",
+            repoLink: "https://github.com/JoelGetzke/NoteTaker" 
 
         },
         {
             title:"Project4",
             description:"description of project4",
             img: Ship4,
-            deployedLink: "https://text-editorjg-76d429acee63.herokuapp.com/",
-            repoLink: "https://github.com/Glansburg/TextEditor" 
+            deployedLink: "https://www.youtube.com/watch?v=9MCIQTeVRaE",
+            repoLink: "https://github.com/JoelGetzke/BussinessOrganize" 
 
         },
         {
             title:"Project5",
             description:"description of project5",
             img: Ship5,
-            deployedLink: "https://text-editorjg-76d429acee63.herokuapp.com/",
-            repoLink: "https://github.com/Glansburg/TextEditor" 
+            deployedLink: "https://github-production-user-asset-6210df.s3.amazonaws.com/117139285/267488956-dff6d288-651f-49be-8771-615d1138fee4.webm",
+            repoLink: "https://github.com/JoelGetzke/socialMedia" 
 
         },
         {
             title:"Project6",
             description:"description of project6",
             img: Ship6,
-            deployedLink: "https://text-editorjg-76d429acee63.herokuapp.com/",
-            repoLink: "https://github.com/Glansburg/TextEditor" 
+            deployedLink: "https://www.youtube.com/watch?v=w_HECJINbyw",
+            repoLink: "https://github.com/JoelGetzke/e-Commerce-Database" 
 
         },
     ]
