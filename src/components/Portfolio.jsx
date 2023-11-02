@@ -9,15 +9,15 @@ function Portfolio() {
     const projects = [
         {
             title:"Project1",
-            description:"description of project1",
+            description:"A note taker for the busy work person",
             img: Ship1,
-            deployedLink: "https://text-editorjg-76d429acee63.herokuapp.com/",
-            repoLink: "https://github.com/Glansburg/TextEditor" 
+            deployedLink: "https://herokunotetaker2023-5b0d4d397a0a.herokuapp.com/notes", 
+            repoLink: "https://github.com/JoelGetzke/NoteTaker" 
 
         },
         {
             title:"Project2",
-            description:"description of project2",
+            description:"Calendar app for scheduling your day.",
             img: Ship2,
             deployedLink: "https://joelgetzke.github.io/WorkScheduler/",
             repoLink: "https://github.com/JoelGetzke/WorkScheduler" 
@@ -25,15 +25,15 @@ function Portfolio() {
         },
         {
             title:"Project3",
-            description:"description of project3",
+            description:"A PWA text editor.",
             img: Ship3,
-            deployedLink: "https://herokunotetaker2023-5b0d4d397a0a.herokuapp.com/notes",
-            repoLink: "https://github.com/JoelGetzke/NoteTaker" 
+            deployedLink: "https://text-editorjg-76d429acee63.herokuapp.com/",
+            repoLink: "https://github.com/Glansburg/TextEditor"  
 
         },
         {
             title:"Project4",
-            description:"description of project4",
+            description:"Back-end development, business organizer",
             img: Ship4,
             deployedLink: "https://www.youtube.com/watch?v=9MCIQTeVRaE",
             repoLink: "https://github.com/JoelGetzke/BussinessOrganize" 
@@ -41,7 +41,7 @@ function Portfolio() {
         },
         {
             title:"Project5",
-            description:"description of project5",
+            description:"Routing, back-end development",
             img: Ship5,
             deployedLink: "https://github-production-user-asset-6210df.s3.amazonaws.com/117139285/267488956-dff6d288-651f-49be-8771-615d1138fee4.webm",
             repoLink: "https://github.com/JoelGetzke/socialMedia" 
@@ -49,7 +49,7 @@ function Portfolio() {
         },
         {
             title:"Project6",
-            description:"description of project6",
+            description:"ORM e-commerce back-end",
             img: Ship6,
             deployedLink: "https://www.youtube.com/watch?v=w_HECJINbyw",
             repoLink: "https://github.com/JoelGetzke/e-Commerce-Database" 
@@ -58,7 +58,8 @@ function Portfolio() {
     ]
     return (
         <div className="row">
-            <div>Portfolio Page </div>
+            <div className="custom-height text-center mt-3">Portfolio Page </div>
+        
 
             {projects.map(project => ( <div className="col-md-4 col-sm-12" key={project.title}>
 
