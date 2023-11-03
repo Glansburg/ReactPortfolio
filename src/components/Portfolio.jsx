@@ -9,7 +9,7 @@ function Portfolio() {
     const projects = [
         {
             title:"Project1",
-            description:"A note taker for the busy work person",
+            description:"A note taker for the busy work person.",
             img: Ship1,
             deployedLink: "https://herokunotetaker2023-5b0d4d397a0a.herokuapp.com/notes", 
             repoLink: "https://github.com/JoelGetzke/NoteTaker" 
@@ -33,7 +33,7 @@ function Portfolio() {
         },
         {
             title:"Project4",
-            description:"Back-end development, business organizer",
+            description:"Back-end development, business organizer.",
             img: Ship4,
             deployedLink: "https://www.youtube.com/watch?v=9MCIQTeVRaE",
             repoLink: "https://github.com/JoelGetzke/BussinessOrganize" 
@@ -41,7 +41,7 @@ function Portfolio() {
         },
         {
             title:"Project5",
-            description:"Routing, back-end development",
+            description:"Routing, back-end development.",
             img: Ship5,
             deployedLink: "https://github-production-user-asset-6210df.s3.amazonaws.com/117139285/267488956-dff6d288-651f-49be-8771-615d1138fee4.webm",
             repoLink: "https://github.com/JoelGetzke/socialMedia" 
@@ -49,7 +49,7 @@ function Portfolio() {
         },
         {
             title:"Project6",
-            description:"ORM e-commerce back-end",
+            description:"ORM e-commerce back-end.",
             img: Ship6,
             deployedLink: "https://www.youtube.com/watch?v=w_HECJINbyw",
             repoLink: "https://github.com/JoelGetzke/e-Commerce-Database" 
@@ -69,7 +69,7 @@ function Portfolio() {
                <div className="card-body">
                  <h5 className="card-title">{project.title}</h5>
                  <p className="card-text">{project.description}</p>
-                 <a href={project.deployedLink} className="btn btn-primary">Deployed project</a>
+                 <a href={project.deployedLink} className="btn btn-primary custom-margin">Deployed project</a>
                  <a href={project.repoLink} className="btn btn-primary">Github Repo</a>
                </div>
              </div> 

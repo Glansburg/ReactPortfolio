@@ -101,3 +101,21 @@ height: 80vh;
   box-shadow: 0 0 0 5px black, 0 0 0 10px rgb(4, 121, 238);
 }
 
+.custom-margin {
+  margin-right: 10px;;
+}
+
+.prevent-default {
+  list-style: none;
+
+}
+
+.hover-underline:hover {
+  text-decoration: underline !important;
+
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+

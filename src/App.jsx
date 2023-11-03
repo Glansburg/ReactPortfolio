@@ -20,17 +20,19 @@ const [page, setPage] = useState("About")
     <Nav setPage={setPage}>
     </Nav>
    </header>
-     <main>
-      {
-        page==="About"?<About></About>:""+
-        page==="Portfolio"?<Portfolio></Portfolio>:""+
-        page==="Contact"?<Contact></Contact>:""+
-        page==="Resume"?<Resume></Resume>:""
-      }
-     </main>
+   <main className="header-border">
+    <ul>
+        <li className="prevent-default hover-underline">{page === "About" ? <About></About> : null}</li>
+        <li className="prevent-default hover-underline">{page === "Portfolio" ? <Portfolio></Portfolio> : null}</li>
+        <li className="prevent-default hover-underline">{page === "Contact" ? <Contact></Contact> : null}</li>
+        <li className="prevent-default hover-underline">{page === "Resume" ? <Resume></Resume> : null}</li>
+    </ul>
+</main>
+
      <footer>{Footer}</footer>
    
     </>
+    
   )
 }
 
