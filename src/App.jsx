@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 
 
 
+
 function App() {
  //const [count, setCount] = useState(0)
 const [page, setPage] = useState("About")
@@ -27,9 +28,13 @@ const [page, setPage] = useState("About")
         <li className="prevent-default hover-underline">{page === "Contact" ? <Contact></Contact> : null}</li>
         <li className="prevent-default hover-underline">{page === "Resume" ? <Resume></Resume> : null}</li>
     </ul>
+    
 </main>
 
-     <footer>{Footer}</footer>
+  <footer className="flex-footer">
+ <div>test</div>
+
+  </footer>
    
     </>
     

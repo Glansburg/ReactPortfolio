@@ -57,7 +57,7 @@ function Portfolio() {
         },
     ]
     return (
-        <div className="row">
+        <div className="row min-h-screen min-h-screen">
             <div className="custom-height text-center mt-3">Portfolio Page </div>
         
 
