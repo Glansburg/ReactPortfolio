@@ -40,7 +40,7 @@ const [page, setPage] = useState("About")
 </a>
 
   
-  <div className="fs-5">Personal Profiles</div>
+  <div className="fs-5">Professional Profiles/Additional Projects</div>
   <a href="https://www.linkedin.com/in/joel-getzke-8b0288298/">
   <img className="" src={Linkedin} alt="sellegant" />
 </a>

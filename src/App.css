@@ -110,6 +110,12 @@ height: 80vh;
 
 }
 
+.custom-screen {
+  position: relative;
+  bottom: 40px; /* You can change the value to the desired distance */
+}
+
+
 .custom-height {
   height: 100px;
   padding-top: 10px;
@@ -127,6 +133,10 @@ height: 80vh;
 .custom-margin {
   margin-right: 10px;;
  
+}
+
+.custom-margin-2 {
+  margin-right: 50px;
 }
 
 .custom-margin-bottom {
