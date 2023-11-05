@@ -57,7 +57,7 @@ function Portfolio() {
         },
     ]
     return (
-        <div className="row min-h-screen min-h-screen">
+        <div className="row">
             <div className="custom-height text-center mt-3">Portfolio Page </div>
         
 
@@ -69,8 +69,8 @@ function Portfolio() {
                <div className="card-body">
                  <h5 className="card-title">{project.title}</h5>
                  <p className="card-text">{project.description}</p>
-                 <a href={project.deployedLink} className="btn btn-primary custom-margin">Deployed project</a>
-                 <a href={project.repoLink} className="btn btn-primary">Github Repo</a>
+                 <a href={project.deployedLink} className="btn btn-primary custom-margin custom-margin-bottom">Deployed project</a>
+                 <a href={project.repoLink} className="btn btn-primary custom-margin-bottom">Github Repo</a>
                </div>
              </div> 
              </div>
