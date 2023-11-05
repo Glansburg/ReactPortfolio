@@ -69,8 +69,8 @@ function Portfolio() {
                <div className="card-body">
                  <h5 className="card-title">{project.title}</h5>
                  <p className="card-text">{project.description}</p>
-                 <a href={project.deployedLink} className="btn btn-primary custom-margin custom-margin-bottom">Deployed project</a>
-                 <a href={project.repoLink} className="btn btn-primary custom-margin-bottom">Github Repo</a>
+                 <a href={project.deployedLink} target="_blank" className="btn btn-primary custom-margin custom-margin-bottom">Deployed project</a>
+                 <a href={project.repoLink} target="_blank" className="btn btn-primary custom-margin-bottom">Github Repo</a>
                </div>
              </div> 
              </div>

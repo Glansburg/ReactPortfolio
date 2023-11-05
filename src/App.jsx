@@ -3,10 +3,11 @@ import './App.css'
 import Nav from "./components/Navigation"
 import Portfolio from "./components/Portfolio"
 import Resume from "./components/Resume"
-import Contact from "./components/Contact"
+
 import About from "./components/About"
 import Github from "./assets/github.svg"
 import Linkedin from "./assets/Linkedin.svg"
+import Email from "./assets/email.svg"
 
 
 
@@ -26,7 +27,6 @@ const [page, setPage] = useState("About")
     <ul>
         <li className="prevent-default">{page === "About" ? <About></About> : null}</li>
         <li className="prevent-default">{page === "Portfolio" ? <Portfolio></Portfolio> : null}</li>
-        <li className="prevent-default">{page === "Contact" ? <Contact></Contact> : null}</li>
         <li className="prevent-default">{page === "Resume" ? <Resume></Resume> : null}</li>
     </ul>
     
@@ -35,14 +35,17 @@ const [page, setPage] = useState("About")
   <footer className="flex-footer">
   <div className="space-between">
    
-  <a href="https://github.com/JoelGetzke">
-  <img className="margin-footer-right" src={Github} alt="sellegant" />
+  <a href="https://github.com/JoelGetzke" target="_blank" >
+  <img className="margin-footer-right" src={Github} alt="github" />
 </a>
 
   
-  <div className="fs-5">Professional Profiles/Additional Projects</div>
-  <a href="https://www.linkedin.com/in/joel-getzke-8b0288298/">
-  <img className="" src={Linkedin} alt="sellegant" />
+<a href="mailto:joelgetzke@outlook.com" target="_blank">
+  <img className="margin-footer-right" src={Email} alt="email" />
+</a>
+
+  <a href="https://www.linkedin.com/in/joel-getzke-8b0288298/" target="_blank">
+  <img className="" src={Linkedin} alt="linkedin" />
 </a>
 
  </div>
