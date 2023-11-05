@@ -5,7 +5,8 @@ import Portfolio from "./components/Portfolio"
 import Resume from "./components/Resume"
 import Contact from "./components/Contact"
 import About from "./components/About"
-import Footer from './components/Footer'
+import Github from "./assets/github.svg"
+import Linkedin from "./assets/Linkedin.svg"
 
 
 
@@ -23,17 +24,28 @@ const [page, setPage] = useState("About")
    </header>
    <main className="header-border">
     <ul>
-        <li className="prevent-default hover-underline">{page === "About" ? <About></About> : null}</li>
-        <li className="prevent-default hover-underline">{page === "Portfolio" ? <Portfolio></Portfolio> : null}</li>
-        <li className="prevent-default hover-underline">{page === "Contact" ? <Contact></Contact> : null}</li>
-        <li className="prevent-default hover-underline">{page === "Resume" ? <Resume></Resume> : null}</li>
+        <li className="prevent-default">{page === "About" ? <About></About> : null}</li>
+        <li className="prevent-default">{page === "Portfolio" ? <Portfolio></Portfolio> : null}</li>
+        <li className="prevent-default">{page === "Contact" ? <Contact></Contact> : null}</li>
+        <li className="prevent-default">{page === "Resume" ? <Resume></Resume> : null}</li>
     </ul>
     
 </main>
 
   <footer className="flex-footer">
- <div>test</div>
+  <div className="space-between">
+   
+  <a href="https://github.com/JoelGetzke">
+  <img className="margin-footer-right" src={Github} alt="sellegant" />
+</a>
 
+  
+  <div className="fs-5">Personal Profiles</div>
+  <a href="https://www.linkedin.com/in/joel-getzke-8b0288298/">
+  <img className="" src={Linkedin} alt="sellegant" />
+</a>
+
+ </div>
   </footer>
    
     </>
