@@ -6,7 +6,7 @@ import Resume from "./components/Resume"
 
 import About from "./components/About"
 import Github from "./assets/github.svg"
-import Linkedin from "./assets/Linkedin.svg"
+import Linkedin from "./assets/linkedin.svg"
 import Email from "./assets/email.svg"
 
 
