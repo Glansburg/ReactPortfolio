@@ -27,7 +27,7 @@ function Portfolio() {
             title:"Project3",
             description:"A PWA text editor.",
             img: Ship3,
-            deployedLink: "https://text-editorjg-76d429acee63.herokuapp.com/",
+            deployedLink: "https://jate-text-editor23-0453618ed693.herokuapp.com//",
             repoLink: "https://github.com/Glansburg/TextEditor"  
 
         },
