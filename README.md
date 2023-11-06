@@ -17,7 +17,7 @@ Through this project I learned:
 N/A
 
 ## Usage
-To view this webpage copy and paste this link in a web browser: https://dainty-bavarois-123fc5.netlify.app/ 
+To view this webpage copy and paste this link in a web browser: https://joelgetzke-portfolio.netlify.app/
 ![joel react](https://github.com/Glansburg/ReactPortfolio/assets/117139285/bd2d1080-f48e-4044-aa91-f416e3660eff)
 
 
