@@ -10,7 +10,7 @@ function Resume() {
     <div className="row">
       <div className="col-md-6">
         <h2>Front-End Proficiencies</h2>
-        <ul>
+        <ul className="custom-bullet">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -19,8 +19,8 @@ function Resume() {
           <li>React</li>
          
         </ul>
-        <h2 className="skillsHeader">Back-end Proficiencies</h2>
-        <ul>
+        <h2>Back-end Proficiencies</h2>
+        <ul className="custom-bullet">
           <li>APIs</li>
           <li>Express</li>
           <li>Node</li>
@@ -30,7 +30,7 @@ function Resume() {
         </ul>
       </div>
       <div className="col-md-6 d-flex align-items-center">
-        <a href="https://github.com/JoelGetzke" target="_blank">
+        <a href="https://docs.google.com/document/d/1E6_NFf9inMPymwFRHAcP85P7g08pExe2/edit?usp=sharing&ouid=113157657655129905794&rtpof=true&sd=true" target="_blank">
           <img src={ResumeFile} alt="github" />
         </a>
         <h1>click Resume</h1>
