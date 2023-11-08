@@ -11,7 +11,7 @@ function Portfolio() {
             title:"Project1",
             description:"A note taker for the busy work person.",
             img: Ship1,
-            deployedLink: "https://herokunotetaker2023-5b0d4d397a0a.herokuapp.com/notes", 
+            deployedLink: "https://note-taker-quotes-24a247755264.herokuapp.com/notes", 
             repoLink: "https://github.com/JoelGetzke/NoteTaker" 
 
         },
@@ -33,7 +33,7 @@ function Portfolio() {
         },
         {
             title:"Project4",
-            description:"Back-end development, business organizer.",
+            description:"Content management system, business organizer.",
             img: Ship4,
             deployedLink: "https://www.youtube.com/watch?v=9MCIQTeVRaE",
             repoLink: "https://github.com/JoelGetzke/BussinessOrganize" 
