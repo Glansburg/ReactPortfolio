@@ -29,7 +29,8 @@ function Resume() {
               </ul>
             </div>
             <div className="col-md-6 d-flex align-items-center">
-              <a className="mt-2"
+              <a
+                className="mt-2"
                 href="https://docs.google.com/document/d/1E6_NFf9inMPymwFRHAcP85P7g08pExe2/edit?usp=sharing&ouid=113157657655129905794&rtpof=true&sd=true"
                 target="_blank"
               >
