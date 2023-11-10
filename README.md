@@ -18,7 +18,8 @@ N/A
 
 ## Usage
 To view this webpage copy and paste this link in a web browser: https://joelgetzke-portfolio.netlify.app/
-![joel react](https://github.com/Glansburg/ReactPortfolio/assets/117139285/bd2d1080-f48e-4044-aa91-f416e3660eff)
+<img width="1247" alt="joel-portfolio-pic" src="https://github.com/JoelGetzke/ReactPortfolio/assets/117139285/dc7e9f61-8541-40cb-8a1a-6bc2c2d6d7e1">
+
 
 
 
