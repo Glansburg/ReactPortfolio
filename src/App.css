@@ -160,4 +160,37 @@ ul a:hover {
   text-decoration: underline !important;
 }
 
+/* Hidden on extra-small screens (576px and below) */
+@media (max-width: 576px) {
+  .name-div {
+    display: none;
+  }
+}
 
+/* Hidden on small screens (768px and below) */
+@media (max-width: 768px) {
+  .name-div {
+    display: none;
+  }
+}
+
+/* Hidden on medium screens (992px and below) */
+@media (max-width: 992px) {
+  .name-div {
+    display: none;
+  }
+}
+
+/* Hidden on large screens (1200px and below) */
+@media (max-width: 1200px) {
+  .name-div {
+    display: none;
+  }
+}
+
+/* Shown on extra-large screens (1201px and above) */
+@media (min-width: 1201px) {
+  .name-div {
+    display: block;
+  }
+}
