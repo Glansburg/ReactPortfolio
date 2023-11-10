@@ -10,8 +10,8 @@ function About() {
         alt="Picture of creater"
       />{" "}
       <br />
-      <div className="custom-height custom-screen text-center custom-media-about mt-5">About Me </div>
-      <div className="about-me-description mb-20">
+      <div className="custom-height custom-screen text-center mt-4">About Me </div>
+      <div className="about-me-description">
         {" "}
         Motivated Fullstack Coding graduate eager to learn more and contribute
         for success. I have knowledge in HTML/CSS Javascript for front and
