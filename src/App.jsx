@@ -16,7 +16,10 @@ function App() {
     <>
       {/* Header for all pages */}
       <header className="flex-header">
-        <div className="name-div d-xs-none d-sm-none d-md-none d-lg-none d-xl-block"> Joel Getzke</div>
+        <div className="name-div">
+          {" "}
+          Joel Getzke
+        </div>
         <Nav setPage={setPage}></Nav>
       </header>
       {/* Main for all pages */}

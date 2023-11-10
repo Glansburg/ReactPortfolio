@@ -184,7 +184,7 @@ ul a:hover {
 /* Hidden on large screens (1200px and below) */
 @media (max-width: 1200px) {
   .name-div {
-    display: none;
+    display: block;
   }
 }
 
