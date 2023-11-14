@@ -37,7 +37,7 @@ function Portfolio() {
     },
     {
       title: "Project5",
-      description: "Routing, back-end development.",
+      description: "NoSQL Routing, back-end development.",
       img: Ship5,
       deployedLink:
         "https://github-production-user-asset-6210df.s3.amazonaws.com/117139285/267488956-dff6d288-651f-49be-8771-615d1138fee4.webm",
@@ -45,7 +45,7 @@ function Portfolio() {
     },
     {
       title: "Project6",
-      description: "ORM e-commerce back-end.",
+      description: "SQL ORM e-commerce back-end.",
       img: Ship6,
       deployedLink: "https://www.youtube.com/watch?v=w_HECJINbyw",
       repoLink: "https://github.com/JoelGetzke/e-Commerce-Database",
