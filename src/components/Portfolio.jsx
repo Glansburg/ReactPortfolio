@@ -30,10 +30,10 @@ function Portfolio() {
     },
     {
       title: "Project4",
-      description: "Content management system, business organizer.",
+      description: "An API fortune teller.",
       img: Ship4,
-      deployedLink: "https://www.youtube.com/watch?v=9MCIQTeVRaE",
-      repoLink: "https://github.com/JoelGetzke/BussinessOrganize",
+      deployedLink: "https://benwhann.github.io/Fortune-Of-The-Day/",
+      repoLink: "https://github.com/BenWhann/Fortune-Of-The-Day",
     },
   
     {
