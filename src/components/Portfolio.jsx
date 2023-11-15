@@ -35,20 +35,21 @@ function Portfolio() {
       deployedLink: "https://www.youtube.com/watch?v=9MCIQTeVRaE",
       repoLink: "https://github.com/JoelGetzke/BussinessOrganize",
     },
+  
     {
       title: "Project5",
+      description: "SQL ORM e-commerce back-end.",
+      img: Ship6,
+      deployedLink: "https://www.youtube.com/watch?v=YPl6QkqCk38",
+      repoLink: "https://github.com/JoelGetzke/e-Commerce-Database",
+    },
+    {
+      title: "Project6",
       description: "NoSQL Routing, back-end development.",
       img: Ship5,
       deployedLink:
         "https://github-production-user-asset-6210df.s3.amazonaws.com/117139285/267488956-dff6d288-651f-49be-8771-615d1138fee4.webm",
       repoLink: "https://github.com/JoelGetzke/socialMedia",
-    },
-    {
-      title: "Project6",
-      description: "SQL ORM e-commerce back-end.",
-      img: Ship6,
-      deployedLink: "https://www.youtube.com/watch?v=w_HECJINbyw",
-      repoLink: "https://github.com/JoelGetzke/e-Commerce-Database",
     },
   ];
   return (
